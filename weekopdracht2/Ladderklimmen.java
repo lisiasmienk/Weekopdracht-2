@@ -8,6 +8,7 @@ public class Ladderklimmen extends Attractie implements GokAttractie{
 		kassa = new Kassa();
 	}
 
+	@Override
 	public double betaalKansSpelBelasting() {
 		return kassa.betaalKansspelBelasting();
 	}

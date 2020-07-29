@@ -8,6 +8,7 @@ public class Spin extends RisicoRijkeAttractie implements GokAttractie{
 		kassa = new Kassa();
 	}
 	
+	@Override
 	public double betaalKansSpelBelasting() {
 		return kassa.betaalKansspelBelasting();
 	}

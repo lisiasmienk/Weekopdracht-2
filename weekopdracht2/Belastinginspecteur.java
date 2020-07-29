@@ -1,7 +1,7 @@
 package weekopdracht2;
 
 public class Belastinginspecteur {
-	int aantalBezoeken;
+	private int aantalBezoeken;
 	
 	void inBelasting(Kermis k) {
 		System.out.println(".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .");
@@ -17,5 +17,10 @@ public class Belastinginspecteur {
 			}
 		}
 		System.out.println(".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .");
+	}
+	
+	
+	public int getAantalBezoeken() {
+		return aantalBezoeken;
 	}
 }
